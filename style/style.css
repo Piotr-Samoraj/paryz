@@ -1,0 +1,174 @@
+body.glowna {
+	background-image:url(../img/tlo.jpg);
+	margin: 0;
+}
+.tekst {
+	color:transparent;
+	text-align:center;
+	font-family:Proxima Nova;
+	font-size:60px;
+	-webkit-text-stroke: 2.5px white;
+	line-height:0px;
+}
+
+
+#tytul {
+	color:transparent;
+	text-align:center;
+	font-family:Proxima Nova;
+	text-transform:uppercase;
+	padding-bottom:5px;
+	font-size:150px;
+	letter-spacing:30px;
+	-webkit-text-stroke: 8px white;
+	line-height:0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.fl {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+div.gallery {
+  margin: 30px;
+  border: 1px solid black;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid red;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+body.gal {
+	background-color:lightblue;
+	margin: 0px;
+	
+}
+div.lewo {
+	margin-left:400px;
+}
+div.prawo {
+	margin-right:400px;
+}
+img.center {
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  margin-left:auto;
+  margin-top:100px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.previous {
+  background-color: #04AA6D;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: black;
+  float:right;
+}
+
+.round {
+  border-radius: 50%;
+}
+.home {
+	background-color: color: black;
+	color: black;
+	text-align:center;
+}
+.center1 {
+	text-align:center;
+	display:inline-block;
+	padding-left:750px;
+	font-weight:bold;
+}
+ol {
+color:black;
+size:100px;
+list-style-image:url(../img/bag.png)
+}
+.normal {
+	float:none;
+}
+.mid {
+	width:600px;
+	text-align:justify;
+	margin-left:600px;
+}
+.nadol {
+	float:none;
+	text-align:center;
+}
+#tytul_m {
+	color:transparent;
+	text-align:center;
+	font-family:Proxima Nova;
+	text-transform:uppercase;
+	padding-bottom:5px;
+	font-size:60px;
+	letter-spacing:30px;
+	-webkit-text-stroke: 8px white;
+	line-height:0px;
+}
+table td{
+	border-style:solid;
+	border-color:black;
+	border-spacing:0px;
+}
+.tebela {
+	 width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	text-align:center;
+	background-color:white;
+	height: 100px;
+}
+.toprow {
+	text-transform:uppercase;
+	font-weight:bold;
+}
